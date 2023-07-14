@@ -1,0 +1,67 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  myheader:
+    title: Hey, I'm Andy!
+    text: It's nice to meet you!
+    button: Scroll Down
+    buttonlink: "#passions"
+
+  passions:
+    title: "Passions"
+    text: "Things that really interest me!"
+    section: passions
+    list:
+      - title: "Data"
+        desc: "In my last two roles, I have become fascinated by data. It has many stories to tell, and many secrets to uncover. I love rolling up my sleeves and digging in."
+        icon: fas fa-table #find more at https://fontawesome.com/icons
+      - title: "Coffee"
+        desc: "I'm a former store-champion barista. I handcraft my coffee every morning from freshly-ground coffee beans. I _love_ coffee. Ask me anything about it!"
+        icon: fas fa-mug-hot
+      - title: "Learning"
+        desc: "I love learning new things! I'm currently in school for my second bachelor's in Data Science, and I'm constantly taking Udemy and edX courses. Check out my blog for the latest on what I'm learning!"
+        icon: fas fa-graduation-cap
+
+  projects:
+    title: "Projects"
+    text: "What I've been working on!"
+    section: projects
+    closebutton: "Close Project"
+
+  aboutme:
+    title: "About Me"
+    text: "My story"
+    body: "My story began in Manhattan, where I was born. I have been a lover of cities ever since! My life has taken me to New Jersey, Connecticut, Florida, Chicago, Ohio, Florida again, and now New York. Chicago and New York are up there as my two favorite places to live -- I'm just a city kid, I guess! I have worked as a barista, a sales supervisor, a JavaScript developer, a WordPress/PHP developer, a SQL analyst, and more! My varied career has taught me several things: 1. I thrive in chaos. There's nothing like being on bar at Starbucks on Black Friday. 2. I _love_ learning new things. Hence my second bachelor's! 3. Coding will always be a part of my life, no matter what!"
+    section: aboutme
+
+  blog:
+    title: "Blog"
+    text: "Check out what I've been up to!"
+    section: posts
+
+  myfooter:
+    legal: "Header image by Clément Hélardot on Unsplash"
+    social:
+      - url: https://linkedin.com/in/mcguinnessandy
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/andymcguinness
+        icon: "fab fa-github"
+      - url: https://instagram.com/andymcgnnss
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
