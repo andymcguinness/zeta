@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to my website!"
 subtitle: "This is where the magic happens."
-categories: misc
+categories: Projects
 ---
 
 This is my personal website. If you want to find out more about how I built it, check out the project on my homepage.

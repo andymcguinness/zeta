@@ -40,7 +40,7 @@ collections:
 
 collections_dir: _collections
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 include:
   - _data
