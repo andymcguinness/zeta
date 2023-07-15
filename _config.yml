@@ -36,9 +36,16 @@ locale: "en-US"
 collections:
   portfolio:
   posts:
+    output: true
+
+collections_dir: _collections
+
+permalink: /:title/
 
 include:
   - _data
+  - _collections
+  - _collections/_posts
 
 # Exclude from processing.
 # The following items will not be processed, by default.

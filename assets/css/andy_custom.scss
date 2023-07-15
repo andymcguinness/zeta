@@ -1,0 +1,13 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+#pagecontainer.posts-container {
+	padding-top: 8rem;
+}
+
+@media (max-width: 992px) {
+	#pagecontainer.posts-container {
+		padding-top: 5rem;
+	}
+}

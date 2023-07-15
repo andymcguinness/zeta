@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2023-07-14 16:47:46 -0400
 subtitle: test
 categories: jekyll update
+excerpt: This is my first post on my website!
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

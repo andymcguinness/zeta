@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   myheader:
     title: Hey, I'm Andy!
     text: It's nice to meet you!
-    button: Scroll Down
+    button: More About Me
     buttonlink: "#passions"
 
   passions:
@@ -39,8 +39,8 @@ en: &DEFAULT_EN
 
   aboutme:
     title: "About Me"
-    text: "My story"
-    body: "My story began in Manhattan, where I was born. I have been a lover of cities ever since! My life has taken me to New Jersey, Connecticut, Florida, Chicago, Ohio, Florida again, and now New York. Chicago and New York are up there as my two favorite places to live -- I'm just a city kid, I guess! I have worked as a barista, a sales supervisor, a JavaScript developer, a WordPress/PHP developer, a SQL analyst, and more! My varied career has taught me several things: 1. I thrive in chaos. There's nothing like being on bar at Starbucks on Black Friday. 2. I _love_ learning new things. Hence my second bachelor's! 3. Coding will always be a part of my life, no matter what!"
+    text: "Where I've been, and what I've done!"
+    body: "My story began in Manhattan, where I was born. I have been a lover of cities ever since! My life has taken me to New Jersey, Connecticut, Florida, Chicago, Ohio, Florida again, and now New York again. Chicago and New York are up there as my two favorite places to live -- I'm just a city kid, I guess!<br><br> I attended Florida State University for my first undergrad degree in Information Communication Technology (go Noles!), and I was a member of Alpha Phi Omega, a national co-ed service fraternity. I did work there that I am proud of to this day! I am currently attending Arizona State University for my second undergrad degree (forks up!), this time in Data Science! I have been having a blast so far -- and am on track to graduate in December 2024.<br><br>In my career, I have worked as a barista, a sales supervisor, a JavaScript developer, a WordPress/PHP developer, a SQL analyst, and more! My varied career has taught me several things: 1. I thrive in chaos. There's nothing like being on bar at Starbucks on Black Friday. 2. I _love_ learning new things. Hence my second bachelor's! 3. Coding will always be a part of my life, no matter what!"
     section: aboutme
 
   blog:
