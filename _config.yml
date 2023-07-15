@@ -46,6 +46,7 @@ include:
   - _data
   - _collections
   - _collections/_posts
+  - favicon.ico
 
 # Exclude from processing.
 # The following items will not be processed, by default.

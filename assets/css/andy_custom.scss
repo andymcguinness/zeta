@@ -2,6 +2,12 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+// All pages
+.footer-legal {
+	font-size: 0.75rem;
+}
+
+// Posts Page
 #pagecontainer.posts-container {
 	padding-top: 8rem;
 }
@@ -10,4 +16,34 @@
 	#pagecontainer.posts-container {
 		padding-top: 5rem;
 	}
+}
+
+.home-link > a {
+	float: left;
+	padding-bottom: 1rem;
+	width: 100%;
+
+	&:hover {
+		text-decoration:  none;
+		color: #212529;
+	}
+}
+
+// Portfolio
+.portfolio-caption {
+	padding-top: 0.75rem;
+}
+
+.portfolio-link {
+	display: block;
+	opacity: 1;
+	transition: 0.3s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+.portfolio-modal .close-modal {
+	transition: 0.2s;
 }

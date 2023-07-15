@@ -26,11 +26,11 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="#"
-              >{{ site.data.sitetext[site.locale].myfooter.legal | default:
-              "Header image from Unsplash" }}</a
-            >
-          </li>
+            <p class="footer-legal">
+              {{ site.data.sitetext[site.locale].myfooter.legal | default:
+	      "Header image from Unsplash" }}
+            </p>
+	  </li>
         </ul>
       </div>
     </div>
@@ -59,11 +59,11 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="#"
-              >{{ site.data.sitetext.myfooter.legal | default:
-              "Privacy Policy" }}</a
-            >
-          </li>
+	    <p class="footer-legal">
+              {{ site.data.sitetext.myfooter.legal | default:
+              "Header from Unsplash" }}
+            </p>
+	  </li>
         </ul>
       </div>
     </div>
