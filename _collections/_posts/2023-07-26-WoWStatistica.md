@@ -1,4 +1,6 @@
 ---
+title: "WoWStatistica"
+subtitle: "A convergence of two of my favorite things."
 layout: post
 date: 26-07-2023
 categories: Projects
